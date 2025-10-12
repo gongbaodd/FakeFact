@@ -18,25 +18,27 @@ label start:
    
     with dissolve
 
-    e "Welcome to Right or Wrong! You'll watch 2 short videos and decide whether each is Right or Wrong."
+    e "You are a time-travelling history professor from the future and have been sent back in time to witness a series of events in 2020s America. Your mission is to monitor the start of AI deepfakes and go back to your class and teach them the real history of the period that led to their dystopian AI-dominated present.  "
+    e "Once your mission is complete, you must go back to the future and teach your students how to differentiate between fake videos and facts."
+    e "On your time-travels, you navigated a series of events in 2020s American culture:"
 
-    call scene_one
-    call scene_two
-    call scene_three
-    call scene_four
-    call scene_five
-    call scene_six
-    call scene_seven
-    call scene_eight
-    call scene_nine
-    call scene_ten
+    call Smith_SAG
+    call Tom_Cruise
+    call Taylor_Swift
+    call Beyonce
+    call Elon
+    call Zuckerburg
+    call Kamala_Harris
+    call Biden
+    call Trump
+    call Trump_Crypto
     call result_scene
 
     return
 
 image movie = Movie(play="videos/real/Beyonce_Commencement.mp4")
 
-label scene_one:
+label Beyonce:
     # Scene 1: a RIGHT video
     with fade
 
@@ -56,7 +58,7 @@ label scene_one:
 
     return
 
-label scene_two:
+label Trump:
     # Scene 2: a WRONG video
     scene bg whitehouse
     show eileen vhappy
@@ -75,7 +77,8 @@ label scene_two:
             "You chose: Wrong."
 
     return
-label scene_three:
+
+label Elon:
     # Scene 3: a RIGHT video
     with fade
 
@@ -94,7 +97,8 @@ label scene_three:
             "You chose: Wrong."
 
     return
-label scene_four:
+
+label Trump_Crypto:
     # Scene 4: a RIGHT video
     with fade
 
@@ -113,7 +117,8 @@ label scene_four:
             "You chose: Wrong."
 
     return
-label scene_five:
+
+label Smith_SAG:
     # Scene 5: a RIGHT video
     with fade
 
@@ -133,7 +138,7 @@ label scene_five:
 
     return
 
-label scene_six:
+label Kamala_Harris:
     # Scene 6: a WRONG video
     scene bg whitehouse
     show eileen vhappy
@@ -153,8 +158,7 @@ label scene_six:
 
     return
 
-
-label scene_seven:
+label Zuckerburg:
     # Scene 7: a WRONG video
     scene bg whitehouse
     show eileen vhappy
@@ -174,7 +178,7 @@ label scene_seven:
 
     return
 
-label scene_eight:
+label Taylor_Swift:
     # Scene 8: a WRONG video
     scene bg whitehouse
     show eileen vhappy
@@ -194,7 +198,7 @@ label scene_eight:
 
     return
 
-label scene_nine:
+label Tom_Cruise:
     # Scene 9: a WRONG video
     scene bg whitehouse
     show eileen vhappy
@@ -214,7 +218,7 @@ label scene_nine:
 
     return
 
-label scene_ten:
+label Biden:
     # Scene 10: a WRONG video
     scene bg whitehouse
     show eileen vhappy
