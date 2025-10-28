@@ -42,7 +42,7 @@ label Beyonce:
     # Scene 1: a RIGHT video
     with fade
 
-    "Scene 1: Watch the video. (Correct answer: Right)"
+    e"Time travel to June 7, 2020. Connect to the Internet and watch live as Beyonce delivers the commencement speech at YouTube's Global Virtual Graduation Ceremony."
 
     # Play the video as a cutscene so it blocks until finished.
     # Replace the filename below with your actual file path.
@@ -64,12 +64,12 @@ label Trump:
     show eileen vhappy
     with fade
 
-    e"Scene 2: Watch the video. (Correct answer: Wrong)"
+    e"Time travel to Sep 28, 2024. Attend Donald Trump’s Campaign Rally in Prairie du Chien, Wisconsin. Watch Donald Trump deliver his speech."
 
     $ renpy.movie_cutscene("videos/fake/Trump_Wall.webm")
 
     menu:
-        "What's your answer for scene 2?"
+        "What's your answer?"
         "Right":
             "You chose: Right."
         "Wrong":
@@ -82,14 +82,14 @@ label Elon:
     # Scene 3: a RIGHT video
     with fade
 
-    "Scene 3: Watch the video. (Correct answer: Right)"
+    "Time travel to June 12, 2024. Connect to the Internet and watch Elon Musk’s interview on Farzad’s YouTube channel."
 
     # Play the video as a cutscene so it blocks until finished.
     # Replace the filename below with your actual file path.
     $ renpy.movie_cutscene("videos/real/Elon_Musk_Meaning_of_Life.webm")
 
     menu:
-        "What's your answer for scene 3?"
+        "What's your answer?"
         "Right":
             $ score += 1
             "You chose: Right."
@@ -102,14 +102,14 @@ label Trump_Crypto:
     # Scene 4: a RIGHT video
     with fade
 
-    "Scene 4: Watch the video. (Correct answer: Right)"
+    e"Time travel to Sep 22, 2024. Connect to the internet and check Donald Trump’s Truth Social post from 9:13 a.m. the previous day. "
 
     # Play the video as a cutscene so it blocks until finished.
     # Replace the filename below with your actual file path.
     $ renpy.movie_cutscene("videos/real/Trump_Crypto.webm")
 
     menu:
-        "What's your answer for scene 4?"
+        "What's your answer?"
         "Right":
             $ score += 1
             "You chose: Right."
@@ -122,14 +122,14 @@ label Smith_SAG:
     # Scene 5: a RIGHT video
     with fade
 
-    "Scene 5: Watch the video. (Correct answer: Right)"
+    "Time travel to Feb 27, 2022. Attend the SAG AFTRA awards. Watch Will Smith speak to the media after receiving the award for best male actor."
 
     # Play the video as a cutscene so it blocks until finished.
     # Replace the filename below with your actual file path.
     $ renpy.movie_cutscene("videos/real/Will Smith_SAG Awards.webm")
 
     menu:
-        "What's your answer for scene 5?"
+        "What's your answer?"
         "Right":
             $ score += 1
             "You chose: Right."
@@ -144,12 +144,12 @@ label Kamala_Harris:
     show eileen vhappy
     with fade
 
-    e"Scene 6: Watch the video. (Correct answer: Wrong)"
+    e"Time travel to Oct 1, 2024. Find a TV and turn the channel to CBS News. Watch Kamala Harris’ “60 Minutes” interview."
 
     $ renpy.movie_cutscene("videos/fake/Kamala_Harris_Homebuyers.webm")
 
     menu:
-        "What's your answer for scene 6?"
+        "What's your answer?"
         "Right":
             "You chose: Right."
         "Wrong":
@@ -164,12 +164,12 @@ label Zuckerburg:
     show eileen vhappy
     with fade
 
-    e"Scene 7: Watch the video. (Correct answer: Wrong)"
+    e"Time travel to May 25, 2017. Attend Harvard University’s Commencement Ceremony. Watch Mark Zuckerberg deliver the commencement speech."
 
     $ renpy.movie_cutscene("videos/fake/Mark_Zuckerburg_Mandarin.webm")
 
     menu:
-        "What's your answer for scene 7?"
+        "What's your answer?"
         "Right":
             "You chose: Right."
         "Wrong":
@@ -184,12 +184,12 @@ label Taylor_Swift:
     show eileen vhappy
     with fade
 
-    e"Scene 8: Watch the video. (Correct answer: Wrong)"
+    e"Time travel to May 18, 2022. Attend the NYU All-University Commencement Ceremony. Watch Taylor Swift deliver the commencement speech."
 
     $ renpy.movie_cutscene("videos/fake/Taylor_Swift_Commencement.webm")
 
     menu:
-        "What's your answer for scene 8?"
+        "What's your answer?"
         "Right":
             "You chose: Right."
         "Wrong":
@@ -204,12 +204,12 @@ label Tom_Cruise:
     show eileen vhappy
     with fade
 
-    e"Scene 9: Watch the video. (Correct answer: Wrong)"
+    e"Time travel to Feb 25. 2023. Attend the Producer’s Guild Awards. Watch Tom Cruise deliver his Achievement Award acceptance speech."
 
     $ renpy.movie_cutscene("videos/fake/Tom_Cruise_Shoutout.webm")
 
     menu:
-        "What's your answer for scene 9?"
+        "What's your answer?"
         "Right":
             "You chose: Right."
         "Wrong":
@@ -224,12 +224,12 @@ label Biden:
     show eileen vhappy
     with fade
 
-    e"Scene 10: Watch the video. (Correct answer: Wrong)"
+    e"Time travel to July 25, 2024. Find a TV and turn the channel to ABC News. Watch Joe Biden’s Oval Office address."
 
     $ renpy.movie_cutscene("videos/fake/Joe_Biden_MLK.webm")
 
     menu:
-        "What's your answer for scene 10?"
+        "What's your answer?"
         "Right":
             "You chose: Right."
         "Wrong":
