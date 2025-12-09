@@ -283,9 +283,10 @@ label result_scene:
     else:
         e"Oops — you got 0 out of 10 correct."
 
-    e"Final score: [score] / 10"
-    e"Each artifact you examined helps rebuild the lost record of the early 21st century."
-    e"Remember, students: truth in that era was not stored in data, it was reconstructed through discernment."
+    e "Your final score, [score] out of 10, shows how effectively you navigated the artifacts."
+    e "Every piece you examined helps rebuild the fractured memory of the early 21st century."
+    e "In that era, truth wasn’t stored—it had to be uncovered."
+
     
     window auto hide  # hides dialogue box before the menu appears
 
@@ -297,6 +298,5 @@ label result_scene:
         "End Session":
             e"Thanks for playing!"
             return
-
 
 
