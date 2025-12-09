@@ -286,13 +286,17 @@ label result_scene:
     e"Final score: [score] / 10"
     e"Each artifact you examined helps rebuild the lost record of the early 21st century."
     e"Remember, students: truth in that era was not stored in data, it was reconstructed through discernment."
+    
+    window auto hide  # hides dialogue box before the menu appears
 
 
     menu:
         e"Prepare for your next expedition. Which cultural frontier will you authenticate next?"
-        "Yes":
+        "Begin a New Expedition":
             jump start
-        "No":
+        "End Session":
             e"Thanks for playing!"
             return
+
+
 
